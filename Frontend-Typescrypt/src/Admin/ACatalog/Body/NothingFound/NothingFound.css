@@ -1,0 +1,25 @@
+.NothingFound {
+  min-height: calc(100vh - 150px);
+
+  margin-left: 50px;
+}
+
+.box {
+  position: absolute;
+  width: 476px;
+  height: 125px;
+  top: 350px;
+  left: 500px;
+  gap: 15px;
+}
+.message {
+  font-weight: 600;
+  font-size: 24px;
+  color: grey;
+}
+.addGoodBtn {
+  background: rgba(53, 52, 51, 1);
+  border: none;
+  margin-top:20px;
+  margin-left:10px;
+}

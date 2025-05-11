@@ -1,0 +1,15 @@
+.bWrong{
+    width: 250px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    left: 620px;
+    top: 170px;
+    border-radius: 10px;
+    padding-top:15px;
+    padding-left:20px
+}
+.wWrong{
+    font-weight: 600;
+    font-size: 15px;
+}

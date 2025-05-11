@@ -1,0 +1,200 @@
+.productsBA {
+  position: absolute;
+  top: 218px;
+  left: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.productBA {
+  width: 869px;
+  height: 145px;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  display: flex;
+}
+.imgBA {
+  width: 145px;
+  height: 145px;
+  border-radius: 15px;
+}
+.middleSection {
+  width: 248px;
+  height: 105px;
+  display: grid;
+  position: relative;
+}
+.nameBA {
+  font-weight: 600;
+  font-size: 24px;
+  color: white;
+}
+.left {
+  font-weight: 400;
+  font-size: 16px;
+  color: grey;
+  position: absolute;
+  top: 40px;
+}
+.AddOrDecrease {
+  width: 96px;
+  height: 31px;
+  margin-top: 50px;
+  gap: 10px;
+  opacity: 0.7;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+  position: relative;
+  background: rgba(138, 137, 137, 1);
+}
+.minus {
+  position: absolute;
+  left: 10px;
+  width: 24px;
+  height: 24px;
+  top: 3px;
+}
+.added {
+  position: absolute;
+  left: 42px;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+}
+.plus {
+  top: 3px;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 60px;
+}
+.price {
+  font-weight: 600;
+  font-size: 32px;
+  background: linear-gradient(90deg, #ff8964 57.01%, #8f7aff 100%);
+  -webkit-background-clip: text; /* Для веб-китов, таких как Chrome и Safari */
+  -webkit-text-fill-color: transparent;
+}
+.deleteBA {
+  width: 40px;
+  height: 40px;
+}
+
+.info {
+  position: absolute;
+  width: 420px;
+  height: 381px;
+  top: 218px;
+  left: 970px;
+  gap: 25px;
+}
+.mainInfo {
+  color: white;
+  width: 420px;
+  height: 295px;
+  gap: 43px;
+  border-radius: 15px;
+  padding: 13px;
+  background: rgba(138, 137, 137, 1);
+}
+.howToGet {
+  width: 379px;
+  height: 106px;
+  display: grid;
+}
+.wordHTG {
+  font-weight: 600;
+  font-size: 20px;
+}
+.desc {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.finalInfo {
+  width: 394px;
+  height: 75px;
+  gap: 20px;
+}
+.goodsInfo {
+  width: 406px;
+  height: 35px;
+  gap: 10px;
+  border-bottom: 1px solid white;
+  margin-top: 40px;
+}
+.goodsC {
+  font-weight: 400;
+  font-size: 16px;
+}
+.goodsP {
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 220px;
+}
+
+.itogo {
+  width: 394px;
+  height: 50px;
+  justify-content: space-between;
+  display: flex;
+}
+.wordItogo {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.coinsBA {
+  width: 141px;
+  height: 50px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #ff8964 0%, #8f7aff 100%);
+}
+.cost1 {
+  margin-left: 35px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  color: white;
+}
+.icon2 {
+  position: absolute;
+  margin-left: 10px;
+  top: 243px;
+  width: 35px;
+  height: 35px;
+}
+
+.orderBtn {
+  margin-top: 20px;
+  width: 426px;
+  height: 76px;
+  gap: 10px;
+  padding-top: 15px;
+  padding-right: 96px;
+  padding-bottom: 15px;
+  padding-left: 96px;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.emptyMessage {
+  position: absolute;
+  width: 355px;
+  height: 125px;
+  top: 400px;
+  left: 543px;
+  gap: 15px;
+}
+.mesg {
+  font-weight: 600;
+  font-size: 24px;
+  margin-left:65px;
+  
+  color: grey;
+}
+.forProductsImg{
+    margin-top:25px;
+
+}

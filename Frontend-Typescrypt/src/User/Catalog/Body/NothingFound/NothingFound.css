@@ -1,0 +1,27 @@
+.NothingFound {
+  min-height: calc(100vh - 150px);
+  
+  margin-left: 50px;
+}
+.phrases {
+  width: 690px;
+  height: 87px;
+  display: grid;
+  position:absolute;
+  top: 145px;
+  left: 50px;
+  gap: 10px;
+}
+.phrase1 {
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+
+  font-size: 32px;
+  color: white;
+}
+.phrase2 {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  color: grey;
+}

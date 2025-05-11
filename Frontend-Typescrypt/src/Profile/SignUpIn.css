@@ -1,0 +1,106 @@
+.body {
+  min-height: calc(100vh - 150px);
+  background: grey;
+}
+.box {
+  position: absolute;
+  width: 600px;
+  height: 382px;
+  top: 300px;
+  left: 470px;
+  border-radius: 15px;
+  padding: 50px;
+  gap: 10px;
+  background: rgba(53, 52, 51, 1);
+}
+.box2 {
+  width: 500px;
+  height: 282px;
+  gap: 50px;
+}
+.mesg1 {
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+}
+.lowMesg {
+  margin-top: 5px;
+  width: 500px;
+  height: 19px;
+  gap: 5px;
+}
+.greyQuest {
+  font-weight: 400;
+  font-size: 12px;
+  color: grey;
+}
+.whiteAnsw {
+  margin-left: 5px;
+  font-weight: 400;
+  font-size: 12px;
+  color: white;
+}
+.inputs {
+  width: 500px;
+  height: 97px;
+  gap: 15px;
+  margin-top: 50px;
+}
+.input1 {
+  width: 500px;
+  height: 41px;
+  border-radius: 15px;
+  gap: 28px;
+  padding-left: 10px;
+}
+.input2 {
+  margin-top: 10px;
+  width: 500px;
+  height: 41px;
+  border-radius: 15px;
+  gap: 28px;
+  padding-left: 10px;
+}
+.buttons {
+  width: 500px;
+  height: 45px;
+  gap: 48px;
+  margin-top: 75px;
+}
+.whiteButt {
+  width: 133px;
+  height: 45px;
+  border-radius: 15px;
+  gap: 10px;
+  padding-top: 5px;
+  padding-right: 33px;
+  padding-bottom: 7px;
+  padding-left: 33px;
+  animation-timing-function: ease-out;
+  animation-duration: 300ms;
+  animation-timing-function: ease-out;
+  animation-duration: 300ms;
+  animation-duration: 0ms;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 155%;
+  letter-spacing: 0%;
+}
+.small {
+  font-weight: 400;
+  font-size: 16px;
+  background: rgba(53, 52, 51, 1);
+  border: 0px;
+  color: white;
+  margin-left: 50px;
+}
+.emailW {
+  font-weight: 400;
+  font-size: 12px;
+  color: grey;
+}
+.passW {
+  font-weight: 400;
+  font-size: 12px;
+  color: grey
+}

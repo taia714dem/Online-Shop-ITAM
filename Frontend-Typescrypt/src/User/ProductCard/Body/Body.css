@@ -1,0 +1,155 @@
+.back {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 112px;
+  left: 50px;
+}
+.cardImage {
+  position: absolute;
+  width: 460px;
+  height: 700px;
+  top: 170px;
+  left: 200px;
+  border-radius: 15px;
+}
+.rightPart {
+  position: absolute;
+  width: 520px;
+  height: 450px;
+  top: 170px;
+  left: 720px;
+  gap: 60px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.upPart {
+  width: 520px;
+  height: 116px;
+  gap: 20px;
+}
+.nameCard {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  color: white;
+}
+.coins {
+  width: 141px;
+  margin-top: 25px;
+  height: 50px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #ff8964 0%, #8f7aff 100%);
+}
+.cost1 {
+  margin-left: 35px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  color: white;
+}
+.icon2U {
+  position: absolute;
+  margin-left: 10px;
+  top: 75px;
+  width: 35px;
+  height: 35px;
+}
+.middlePart {
+  width: 520px;
+  height: 144px;
+  gap: 10px;
+  margin-top: 70px;
+
+  
+}
+
+.description {
+  width: 520px;
+  height: 62px;
+
+  display: grid;
+}
+.wordDesc {
+  font-weight: 600;
+  font-size: 20px;
+  color: grey;
+}
+.desc {
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+}
+.amount {
+  margin-top: 15px;
+  width: 520px;
+  height: 31px;
+  justify-content: space-between;
+}
+.wordAmt {
+  font-weight: 600;
+  font-size: 20px;
+  color: grey;
+}
+.amt {
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+}
+.isUnique {
+  margin-top: 5px;
+  width: 520;
+  height: 31;
+  justify-content: space-between;
+}
+.wordUnq {
+  font-weight: 600;
+  font-size: 20px;
+  color: grey;
+}
+.unq {
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+}
+
+.btn {
+  width: 303px;
+  height: 70px;
+  gap: 10px;
+  padding-right: 85px;
+  padding-left: 85px;
+  border-radius: 15px;
+  animation-timing-function: ease-out;
+  animation-duration: 300ms;
+  animation-timing-function: ease-out;
+  animation-duration: 300ms;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top:90px;
+}
+
+@media(max-width:425px){
+    
+      .cardImage {
+        width: 260px;
+        height: 400px;
+        top: 150px;
+        left: 120px;
+      }
+      .rightPart {
+        top: 570px;
+        left: 120px;
+      }
+}
+@media(max-width:1600px){
+    .cardImage {
+        
+        width: 460px !important;
+        height: 600px !important;
+        top: 150px;
+        left: 200px;
+        border-radius: 15px;
+      }
+      
+}

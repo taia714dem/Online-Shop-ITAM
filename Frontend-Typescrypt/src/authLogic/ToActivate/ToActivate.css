@@ -1,0 +1,11 @@
+.toActivateBox{
+    position: absolute;
+    top:120px;
+    left:550px;
+    background:white;
+    border-radius: 15px;
+    font-size: 17px;
+    padding:20px;
+    font-weight: 600;
+    width:400px;
+}

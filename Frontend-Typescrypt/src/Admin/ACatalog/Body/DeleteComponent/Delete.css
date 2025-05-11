@@ -1,0 +1,79 @@
+.overlay {
+    position: fixed; /* Заставляет покрывать весь экран */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон */
+    z-index: 999; /* Убедитесь, что он отображается поверх других элементов */
+}
+
+
+.delete {
+  position: absolute;
+  width: 438px;
+  height: 191px;
+  gap: 10px;
+  border-radius: 20px;
+  top: 317px;
+  left: 501px;
+  background: white;
+  z-index:1000
+}
+.deleteBox {
+  width: 338px;
+  height: 111px;
+  gap: 35px;
+  margin: 40px 50px;
+}
+.quest {
+  font-weight: 600;
+  font-size: 20px;
+  margin-left:5px;
+}
+.buttonsDEL {
+  margin-top: 40px;
+  width: 338px;
+  height: 45px;
+  gap: 35px;
+}
+.deleteB {
+  width: 155px;
+  height: 45px;
+  gap: 10px;
+  border-radius: 15px;
+  padding-top: 7px;
+  padding-right: 33px;
+  padding-bottom: 7px;
+  padding-left: 33px;
+  background: rgba(30, 29, 28, 1);
+  animation-timing-function: ease-out;
+  animation-duration: 300ms;
+  animation-timing-function: ease-out;
+  animation-duration: 300ms;
+  animation-duration: 0ms;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+}
+.no {
+    margin-left:10px;
+  width: 148px;
+  height: 45px;
+  gap: 10px;
+  border-radius: 15px;
+  border-width: 1px;
+  padding-top: 7px;
+  padding-right: 33px;
+  padding-bottom: 7px;
+  padding-left: 33px;
+  border: 1px solid rgba(53, 52, 51, 1);
+  animation-timing-function: ease-out;
+  animation-duration: 300ms;
+  animation-timing-function: ease-out;
+  animation-duration: 300ms;
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(53, 52, 51, 1);
+}

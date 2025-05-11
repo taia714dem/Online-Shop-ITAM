@@ -1,0 +1,42 @@
+.secondHeader {
+    position: absolute;
+    width: 1342px;
+    height: 57px;
+    top: 129px;
+    left: 49px;
+    display:flex;
+    justify-content: space-between;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .wordBasket {
+    font-weight: 600;
+    font-size: 42px;
+    color:white;
+  }
+  
+  .myBalance {
+    font-weight: 400;
+    font-size: 24px;
+    display: flex;
+    margin-top:10px;
+  
+    text-align: right;
+    
+  }
+  .wordBalance {
+    color: white;
+  
+  }
+  .colorBalance {
+    font-weight: 600;
+    margin-top: 5px;
+    margin-left: 7px;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    text-align: right;
+    background: linear-gradient(90deg, #ff8964 57.01%, #8f7aff 100%);
+    -webkit-background-clip: text; /* Для веб-китов, таких как Chrome и Safari */
+    -webkit-text-fill-color: transparent;
+  }
+  

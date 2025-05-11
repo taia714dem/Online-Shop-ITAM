@@ -1,0 +1,36 @@
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.successfullyAdded {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 360px;
+    height: 70px;
+    font-size: 19px;
+    font-weight: 400;
+    left: 600px;
+    top: 150px;
+    color: white;
+    display: flex;
+    animation: slideIn 0.2s ease forwards; /* Уменьшено время анимации */
+}
+
+.Ad23 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.icn {
+    margin-left: 20px;
+    margin-top: 20px;
+}

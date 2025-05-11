@@ -1,0 +1,121 @@
+.Body {
+  margin-left: 50px;
+  margin-top: 150px;
+  display: flex;
+  width: 1344;
+  height: 503;
+  gap: 40px;
+  padding-right: 2px;
+  padding-left: 2px;
+  flex-wrap: wrap;
+}
+.productIN {
+ 
+  display: grid;
+  width: 305px;
+  height: 503px;
+  gap: 25px;
+}
+.img {
+  width: 305px;
+  height: 344px;
+  border-radius: 15px;
+}
+.description {
+  margin-top: 20px;
+  display: grid;
+}
+.cost {
+  font-weight: 600;
+  font-size: 32px;
+  background: linear-gradient(90deg, #ff8964 0%, #8f7aff 100%);
+  -webkit-background-clip: text; /* Для веб-китов, таких как Chrome и Safari */
+  -webkit-text-fill-color: transparent;
+}
+.name {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+}
+.inBasket {
+  width: 305px;
+  height: 45px;
+  gap: 10px;
+  margin-top: 20px;
+  padding-top: 0px;
+  padding-right: 85px;
+  padding-bottom: 0px;
+  padding-left: 85px;
+  border-radius: 15px;
+  animation-timing-function: ease-out;
+  animation-duration: 300ms;
+  animation-timing-function: ease-out;
+  animation-duration: 300ms;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+.wInB {
+  width: 300px;
+}
+.InvImg {
+  width: 84px;
+  height: 23px;
+  z-index:1;
+  position: relative;
+  right:290px;
+  bottom:310px;
+}
+@media (max-width: 425px) {
+  .Body {
+    margin-left: 50px;
+    margin-top: 120px;
+    display: flex;
+    width: 500px;
+    height: 503px;
+    gap: 40px;
+    padding-right: 2px;
+    padding-left: 2px;
+    flex-wrap: wrap;
+  }
+  .product {
+    width: 205px;
+    height: 203px;
+    gap: 25px;
+    margin-bottom: 55px;
+  }
+  .img {
+    width: 150px;
+    height: 170px;
+    border-radius: 15px;
+  }
+  .description {
+    margin-top: 10px;
+    display: grid;
+  }
+  .cost {
+    font-weight: 600;
+    font-size: 15px;
+    background: linear-gradient(90deg, #ff8964 0%, #8f7aff 100%);
+    -webkit-background-clip: text; /* Для веб-китов, таких как Chrome и Safari */
+    -webkit-text-fill-color: transparent;
+  }
+  .name {
+    margin-top: 5px;
+
+    font-weight: 400;
+    font-size: 10px;
+    color: white;
+  }
+  .inBasket {
+    width: 150px;
+    height: 35px;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 0px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 15px;
+  }
+}

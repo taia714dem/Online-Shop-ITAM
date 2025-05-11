@@ -1,0 +1,209 @@
+.header {
+  width: 100%; /* Дефолтная ширина для десктопов */
+  height: 100px;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  
+}
+.icon{
+  width:40px;
+}
+
+.undHeader {
+  width: 1040px; /* Дефолтная ширина для десктопов */
+  height: 60px;
+  gap: 50px;
+  display: flex;
+}
+
+.imgItam {
+  width: 104px;
+  height: 60px;
+}
+
+.input {
+  width: 849px;
+  height: 52px;
+  gap: 5px;
+  border-radius: 20px;
+  padding: 6px;
+}
+
+.inventar {
+  width: 87px;
+  height: 60px;
+}
+
+.profile {
+  width: 73px;
+  height: 60px;
+}
+
+.basket {
+  width: 87px;
+  height: 60px;
+}
+
+@media (min-width: 376px) and (max-width: 480px) {
+  .header {
+    width: 100%; /* Полная ширина */
+    padding: 5px !important; /* Умеренные отступы */
+  }
+
+  .undHeader {
+    flex-direction: column; /* Изменяем на колонку */
+    gap: 20px; /* Умеренные отступы */
+    display: flex; /* Включаем Flexbox */
+    flex-direction: row; /* Устанавливаем ряд */
+    
+  }
+
+  
+  .icon {
+    width: 30px !important; /* Уменьшаем ширину */
+    height: auto; /* Автоматическая высота */
+  }
+  .profile {
+    width: 50px !important; /* Уменьшаем ширину */
+    height: auto; /* Автоматическая высота */
+  }
+  .imgItam {
+    width: 70px !important; /* Уменьшаем ширину */
+    height: auto; /* Автоматическая высота */
+  }
+  .inventar {
+    width: 50px !important; /* Уменьшаем ширину */
+    height: auto; /* Автоматическая высота */
+  }
+  .basket {
+    width: 50px !important; /* Уменьшаем ширину */
+    height: auto; /* Автоматическая высота */
+  }
+
+  .input {
+    width:200px !important;
+    height: 35px !important; /* Уменьшенная высота */
+    padding: 5px;
+    
+    
+
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .header {
+    width: 100%; /* Полная ширина */
+    padding: 20px; /* Умеренные отступы */
+  }
+
+  .undHeader {
+    width: 100%; /* Полная ширина */
+    gap: 30px; /* Умеренные отступы */
+  }
+
+  .imgItam {
+    width: 70px; /* Уменьшение ширины изображений */
+  }
+
+  .input {
+    width: 100%; /* Полная ширина */
+    height: 45px; /* Уменьшенная высота */
+  }
+
+  .inventar,
+  .basket {
+    width: 70px; /* Уменьшение ширины для этих элементов */
+  }
+
+  .profile {
+    width: 60px; /* Уменьшение ширины для профиля */
+  }
+}
+
+
+@media (max-width: 767px) {
+  .header {
+    width: 100%; /* Полная ширина */
+    height: auto; /* Автоматическая высота */
+    padding: 10px; /* Уменьшенные отступы */
+  }
+
+  .undHeader {
+    width: 100%; /* Полная ширина */
+    height: auto; /* Автоматическая высота */
+    gap: 20px; /* Уменьшенные отступы */
+  }
+
+  .imgItam,
+  .inventar,
+  .profile,
+  .basket {
+    width: 50px; /* Уменьшение ширины изображений и иконок */
+    height: auto; /* Автоматическая высота */
+  }
+
+  .input {
+    width: 100%; /* Полная ширина */
+    height: 40px; /* Уменьшенная высота */
+    padding: 10px; /* Увеличенные отступы внутри */
+  }
+}
+
+/* Планшеты (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    width: 100%; /* Полная ширина */
+    padding: 20px; /* Умеренные отступы */
+  }
+
+  .undHeader {
+    width: 100%; /* Полная ширина */
+    height: auto; /* Автоматическая высота */
+    gap: 30px; /* Уменьшенные отступы */
+  }
+
+  .imgItam {
+    width: 70px; /* Уменьшение ширины изображений */
+    height: auto; /* Автоматическая высота */
+  }
+
+  .input {
+    width: 100%; /* Полная ширина */
+    height: 45px; /* Уменьшенная высота */
+  }
+
+  .inventar,
+  .basket {
+    width: 70px; /* Уменьшение ширины для этих элементов */
+  }
+
+  .profile {
+    width: 60px; /* Уменьшение ширины для профиля */
+  }
+}
+
+/* Ноутбуки (1025px - 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .header {
+    width: 100%; /* Полная ширина */
+    padding: 30px; /* Умеренные отступы */
+  }
+
+  .undHeader {
+    width: 100%; /* Полная ширина */
+    gap: 40px; /* Умеренные отступы */
+  }
+
+  .input {
+    width: 75%; /* Ширина инпута */
+  }
+}
+
+/* Десктопы (≥ 1440px) */
+@media (min-width: 1441px) {
+  .header {
+    width: 1440px; /* Ширина для десктопов */
+    padding: 20px 50px; /* Стандартные отступы */
+  }
+}

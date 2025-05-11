@@ -1,0 +1,32 @@
+.FilterOptions {
+  width: 160px;
+  height: 45px;
+  gap: 10px;
+  margin-left:276px;
+  padding-top: 17px;
+  padding-right: 20px;
+  padding-bottom: 17px;
+  padding-left: 20px;
+  border-radius: 10px;
+  position:absolute;
+  
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.option {
+  width: 175px;
+  height: 25px;
+  gap: 10px;
+  display: flex;
+  z-index:1;
+}
+.imageOption {
+  width: 16px;
+  height: 16px;
+}
+.wordOption {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: right;
+}

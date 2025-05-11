@@ -1,0 +1,353 @@
+.middleHeader {
+  width: 1440px;
+  height: 51px;
+  justify-content: space-between;
+  margin-left:50px;
+  position:absolute;
+  top:160px;
+  
+}
+.leftPart {
+  width: 1342px;
+  height: 51px;
+  gap: 30px;
+  display: flex;
+}
+.word {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 42px;
+  color: white;
+}
+.filters {
+  width: 352;
+  height: 35;
+  gap: 16px;
+  margin: 0px 30px;
+  display: flex;
+}
+.costFilter {
+  width: 220px;
+  height: 35px;
+  gap: 11px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border-width: 1px;
+  background: rgba(53, 52, 51, 1);
+  border: 1px solid rgba(138, 137, 137, 1);
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 20px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.filterThing {
+  width: 24px;
+}
+.wordCost {
+  margin-top: 2px;
+  margin-left: 20px;
+}
+
+.CategoryFilter {
+  width: 162px;
+  height: 35px;
+  gap: 11px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border-width: 1px;
+  background: rgba(53, 52, 51, 1);
+  border: 1px solid rgba(138, 137, 137, 1);
+  font-weight: 400;
+  font-size: 20px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.addProduct {
+  
+  top:10px;
+  left:1100px;
+  position:absolute;
+  
+}
+
+@media(max-width:425px){
+    .middleHeader {
+        width: 100%; /* Используем всю ширину экрана */
+        height: auto; /* Высота может быть адаптивной */
+        display: flex; /* Используем flexbox для размещения элементов */
+        justify-content: space-between; /* Разделяем пространство между элементами */
+        padding: 10px 0; /* Добавляем немного отступов */
+        margin-left:7px;
+      }
+      
+      .leftPart {
+        flex-grow: 1; /* Позволяем левой части занимать доступное пространство */
+        display: flex; /* Используем flex для размещения элементов */
+        align-items: center; /* Центрируем элементы по вертикали */
+        gap: 10px; /* Уменьшаем промежутки для лучшего размещения */
+      }
+      
+      .word {
+        font-size: 16px; /* Уменьшаем размер шрифта для лучшего восприятия */
+        color: white;
+        margin-top: 7px; /* Убираем отступы */
+      }
+      
+      .filters {
+        display: flex; /* Размещаем фильтры в одну строчку */
+        gap: 10px;
+        margin-left:5px;
+        font-size:10px; /* Уменьшаем расстояние между фильтрами */
+        
+      }
+      
+      .CategoryFilter {
+        width: 50px; /* Уменьшаем ширину фильтров */
+        height: 15px;
+        display: flex;
+        padding: 0 5px; /* Добавляем немного внутреннего отступа */
+      }
+      .costFilter{
+        width: 80px; /* Уменьшаем ширину фильтров */
+        height: 15px;
+        border-radius: 10px; /* Сохраняем закругление углов */
+        border: 1px solid rgba(138, 137, 137, 1);
+        background: rgba(53, 52, 51, 1);
+        font-family: Montserrat, sans-serif;
+        font-weight: 400;
+        
+        display: flex;
+      
+        padding: 0 5px; /* Добавляем немного внутреннего отступа */
+      }
+      
+      .filterThing {
+        width: 7px; /* Уменьшаем размер для компактности */
+      }
+      
+      .wordCost {
+        margin-top:3.3px;
+        margin-left: 5px; /* Уменьшаем отступ для компактности */
+        font-size: 6.5px; /* Уменьшаем размер шрифта */
+      }
+      
+      .myBalance {
+        font-family: "Times New Roman", Times, serif;
+        font-weight: 400;
+        
+        text-align: center; /* Центрируем текст */
+        margin-left: 10px;
+        left:280px;
+        display:grid;
+        top:85px; /* Увеличиваем отступ для равновесия */
+      }
+      
+      .wordBalance {
+        color: white;
+        font-size: 7px; /* Уменьшаем размер шрифта */
+      }
+      
+      .colorBalance {
+        font-weight: 600;
+        margin-left: 5px;
+        font-size: 7px; /* Уменьшаем размер шрифта */
+        
+      }
+      
+      @media(max-width: 400px) {
+        .middleHeader {
+          flex-direction: row; /* Обеспечиваем однострочное расположение */
+        }
+      }
+}
+
+
+@media(max-width:760px){
+    .middleHeader {
+        width: 100%; /* Используем всю ширину экрана */
+        height: auto; /* Высота может быть адаптивной */
+        display: flex; /* Используем flexbox для размещения элементов */
+        justify-content: space-between; /* Разделяем пространство между элементами */
+        padding: 10px 0; /* Добавляем немного отступов */
+        margin-left:17px;
+        position: absolute;
+        top:100px;
+      }
+      
+      .leftPart {
+        flex-grow: 1; /* Позволяем левой части занимать доступное пространство */
+        display: flex; /* Используем flex для размещения элементов */
+        align-items: center; /* Центрируем элементы по вертикали */
+        gap: 10px; /* Уменьшаем промежутки для лучшего размещения */
+      }
+      
+      .word {
+        font-size: 30px; /* Уменьшаем размер шрифта для лучшего восприятия */
+        color: white;
+        margin-top:3px;
+        
+      }
+      
+      .filters {
+        display: flex; /* Размещаем фильтры в одну строчку */
+        gap: 10px;
+        margin-left:10px;
+        
+        
+      }
+      
+      .CategoryFilter {
+        width: 90px; /* Уменьшаем ширину фильтров */
+        height: 25px;
+        display: flex;
+        padding: 0 5px; /* Добавляем немного внутреннего отступа */
+      }
+      .costFilter{
+        width: 100px; /* Уменьшаем ширину фильтров */
+        height: 25px;
+        border-radius: 10px; /* Сохраняем закругление углов */
+        border: 1px solid rgba(138, 137, 137, 1);
+        background: rgba(53, 52, 51, 1);
+        font-family: Montserrat, sans-serif;
+        font-weight: 400;
+        
+        display: flex;
+      
+        padding: 0 5px; /* Добавляем немного внутреннего отступа */
+      }
+      
+      .filterThing {
+        width: 12px; /* Уменьшаем размер для компактности */
+      }
+      
+      .wordCost {
+        margin-top:6px;
+        margin-left: 5px; /* Уменьшаем отступ для компактности */
+        font-size: 9px; /* Уменьшаем размер шрифта */
+      }
+      
+      .myBalance {
+        font-family: "Times New Roman", Times, serif;
+        font-weight: 400;
+        
+        text-align: center; /* Центрируем текст */
+        
+        margin-top:19px;
+        margin-left: 10px;
+      }
+      
+      .wordBalance {
+        color: white;
+        font-size: 10px; /* Уменьшаем размер шрифта */
+      }
+      
+      .colorBalance {
+        font-weight: 600;
+        margin-left: 5px;
+        font-size: 10px; /* Уменьшаем размер шрифта */
+        
+      }
+      
+      @media(max-width: 400px) {
+        .middleHeader {
+          flex-direction: row; /* Обеспечиваем однострочное расположение */
+        }
+      }
+}
+
+
+@media(max-width:1024px){
+    .middleHeader {
+        width: 100%; /* Используем всю ширину экрана */
+        height: auto; /* Высота может быть адаптивной */
+        display: flex; /* Используем flexbox для размещения элементов */
+        justify-content: space-between; /* Разделяем пространство между элементами */
+        padding: 10px 0; /* Добавляем немного отступов */
+        margin-left:17px;
+      }
+      
+      .leftPart {
+        flex-grow: 1; /* Позволяем левой части занимать доступное пространство */
+        display: flex; /* Используем flex для размещения элементов */
+        align-items: center; /* Центрируем элементы по вертикали */
+        gap: 10px; /* Уменьшаем промежутки для лучшего размещения */
+      }
+      
+      .word {
+        font-size: 30px; /* Уменьшаем размер шрифта для лучшего восприятия */
+        color: white;
+        margin-top:3px;
+        
+      }
+      
+      .filters {
+        display: flex; /* Размещаем фильтры в одну строчку */
+        gap: 10px;
+        margin-left:10px;
+        
+        
+      }
+      
+      .CategoryFilter {
+        width: 120px; /* Уменьшаем ширину фильтров */
+        height: 35px;
+        display: flex;
+        padding: 0 5px; /* Добавляем немного внутреннего отступа */
+      }
+      .costFilter{
+        width: 150px; /* Уменьшаем ширину фильтров */
+        height: 35px;
+        border-radius: 10px; /* Сохраняем закругление углов */
+        border: 1px solid rgba(138, 137, 137, 1);
+        background: rgba(53, 52, 51, 1);
+        font-family: Montserrat, sans-serif;
+        font-weight: 400;
+        
+        display: flex;
+      
+        padding: 0 5px; /* Добавляем немного внутреннего отступа */
+      }
+      
+      .filterThing {
+        width: 20px; /* Уменьшаем размер для компактности */
+      }
+      
+      .wordCost {
+        margin-top:8px;
+        margin-left: 5px; /* Уменьшаем отступ для компактности */
+        font-size: 14px; /* Уменьшаем размер шрифта */
+      }
+      
+      .myBalance {
+        font-family: "Times New Roman", Times, serif;
+        font-weight: 400;
+        
+        text-align: center; /* Центрируем текст */
+        
+        margin-top:18px;
+        margin-left:20px;
+      }
+      
+      .wordBalance {
+        color: white;
+        font-size: 15px; /* Уменьшаем размер шрифта */
+      }
+      
+      .colorBalance {
+        font-weight: 600;
+        margin-left: 5px;
+        font-size: 15px; /* Уменьшаем размер шрифта */
+        
+      }
+      
+      @media(max-width: 400px) {
+        .middleHeader {
+          flex-direction: row; /* Обеспечиваем однострочное расположение */
+        }
+      }
+}
